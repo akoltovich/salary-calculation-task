@@ -1,0 +1,21 @@
+databaseChangeLog:
+  - logicalFilePath: db/changelog/db.changelog.yaml
+  - changeSet:
+      id: 1
+      author: akoltovich
+      changes:
+        - createTable:
+            tableName: team
+            columns:
+              - column:
+                  name: team_id
+                  type: BIGINT
+                  autoIncrement: true
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: total_amount
+                  type: integer
+                  constraints:
+                    nullable: false

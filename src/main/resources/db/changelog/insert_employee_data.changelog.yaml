@@ -1,0 +1,54 @@
+databaseChangeLog:
+  - changeSet:
+      id: 5
+      author: akoltovich
+      changes:
+        - insert:
+            tableName: employee
+            dbms: 'mysql'
+            columns:
+              - column:
+                  name: team_id
+                  value: 1
+        - insert:
+            tableName: employee
+            dbms: 'mysql'
+            columns:
+              - column:
+                  name: team_id
+                  value: 1
+        - insert:
+            tableName: employee
+            dbms: 'mysql'
+            columns:
+              - column:
+                  name: team_id
+                  value: 2
+        - insert:
+            tableName: employee
+            dbms: 'mysql'
+            columns:
+              - column:
+                  name: team_id
+                  value: 2
+        - insert:
+            tableName: employee
+            dbms: 'mysql'
+            columns:
+              - column:
+                  name: team_id
+                  value: 3
+        - insert:
+            tableName: employee
+            dbms: 'mysql'
+            columns:
+              - column:
+                  name: team_id
+                  value: 3
+        - insert:
+            tableName: employee
+            dbms: 'mysql'
+            columns:
+              - column:
+                  name: team_id
+                  value: 3

@@ -1,0 +1,26 @@
+databaseChangeLog:
+  - changeSet:
+      id: 4
+      author: akoltovich
+      changes:
+        - insert:
+            tableName: team
+            dbms: 'mysql'
+            columns:
+              - column:
+                  name: total_amount
+                  value: 500
+        - insert:
+            tableName: team
+            dbms: 'mysql'
+            columns:
+              - column:
+                  name: total_amount
+                  value: 700
+        - insert:
+            tableName: team
+            dbms: 'mysql'
+            columns:
+              - column:
+                  name: total_amount
+                  value: 900

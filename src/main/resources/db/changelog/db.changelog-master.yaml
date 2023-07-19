@@ -1,0 +1,13 @@
+databaseChangeLog:
+  - include:
+        file: db\changelog\create_team_table.changelog.yaml
+  - include:
+      file: db\changelog\create_employee_table.changelog.yaml
+  - include:
+      file: db\changelog\create_employee_information_table.changelog.yaml
+  - include:
+      file: db\changelog\insert_team_data.changelog.yaml
+  - include:
+      file: db\changelog\insert_employee_data.changelog.yaml
+  - include:
+      file: db\changelog\insert_employee_information_data.changelog.yaml
